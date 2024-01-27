@@ -1,0 +1,8 @@
+:root {
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
+
+.gradient {
+  height: 100vh;
+}

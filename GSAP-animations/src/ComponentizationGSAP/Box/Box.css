@@ -1,0 +1,10 @@
+.box {
+  background-color: rgb(33, 33, 57);
+  height: 100px;
+  color: white;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+@font-face {
+  src: url("fonts/Roslindale-TextBold-Testing.woff2") format("woff2"),
+    url("fonts/Roslindale-TextBold-Testing.woff") format("woff");
+  font-family: "Roslindale";
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #121212;
+}
+
+html,
+body {
+  font-family: "Roslindale";
+  background-color: #e9ebff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.links {
+  display: flex;
+}
+
+.logo,
+.nav-item {
+  margin: 2em;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #111211;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #111211;
+  transform-origin: top;
+}
